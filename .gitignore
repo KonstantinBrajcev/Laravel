@@ -1,6 +1,9 @@
-vendor/
-storage/
+vendor
+storage
 resources/css
 resources/js
-public/
-bootstrap/
+public
+bootstrap
+database/factories
+database/seeders
+tests

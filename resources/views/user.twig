@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>List of users</title>
+    </head>
+    <body>
+        <h2>Список пользователей TWIG</h2>
+        <table style="border: 2px solid black;">
+            {% for user in users %}
+            <tr><td>{{user.id}}</td>
+                <td>{{user.first_name}}</td>
+                <td>{{user.last_name}}</td>
+                <td>{{user.email}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>

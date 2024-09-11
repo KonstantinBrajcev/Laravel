@@ -1,8 +1,6 @@
-vendor/fakerphp/faker/src/Faker/Provider/Biased.php
-vendor/fakerphp/faker/src/Faker/Provider/Address.php
-vendor/bin/var-dump-server.bat
-vendor/bin/psysh.bat
-vendor/bin/sail
-vendor/brick/math/composer.json
-vendor/bin/patch-type-declarations.bat
-vendor/bin/pint
+vendor/
+storage/
+resources/css
+resources/js
+public/
+bootstrap/

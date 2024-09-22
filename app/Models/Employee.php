@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Employee extends Model
 {
     use HasFactory;
+    protected $table = 'user';
+    protected $fillable = [
+        'first_name',
+        'last_name',
+        'email',
+        'workdata',
+    ];
+    public $timestamps = false; // Отключает временные метки
 }

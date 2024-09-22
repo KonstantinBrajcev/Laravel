@@ -1,11 +1,11 @@
 <!-- resources/views/layouts/header.blade.php -->
 <header>
-    <h1>Мой сайт</h1>
+    <h1>Мой ТЕСТОВЫЙ сайт</h1>
     <nav>
         <ul>
-            <li><a href="/">Главная</a></li>
+            <li><a href="/employees">Главная</a></li>
+            <li><a href="/create">Создать сотрудника</a></li>
             <li><a href="/contacts">Контакты</a></li>
         </ul>
     </nav>
 </header>
-<h1>Это ХЭАДЕР</h1>
